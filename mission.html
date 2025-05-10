@@ -3,13 +3,54 @@ layout: default
 title: Our Mission
 ---
 
-<section style="background-image: url('/assets/images/mission-bg.jpg'); background-size: cover; padding: 150px 0; text-align: center;">
-  <h1 style="font-size: 4em; color: #FFD700; font-weight: 900;">OUR MISSION</h1>
-</section>
+<style>
+.mission-banner {
+  background-image: url('/assets/images/mission-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+}
 
-<section style="background-color: #1D314A; color: #FFD700; padding: 50px; text-align: center;">
-  <p style="font-size: 1.2em; font-weight: bold;">MAKE IT STAND OUT.</p>
-  <p style="font-size: 1.1em; max-width: 700px; margin: 0 auto;">
-    IT ALL BEGINS WITH AN IDEA. MAYBE YOU WANT TO LAUNCH A BUSINESS. MAYBE YOU WANT TO TURN A HOBBY INTO SOMETHING MORE. OR MAYBE YOU HAVE A CREATIVE PROJECT TO SHARE WITH THE WORLD. WHATEVER IT IS, THE WAY YOU TELL YOUR STORY ONLINE CAN MAKE ALL THE DIFFERENCE.
+.mission-banner::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(29, 49, 74, 0.4); /* navy overlay */
+  z-index: 1;
+}
+
+.mission-banner h1 {
+  position: relative;
+  z-index: 2;
+  color: #FFD700;
+  font-size: 4em;
+  text-align: center;
+  line-height: 400px;
+  font-family: 'Impact', sans-serif;
+  margin: 0;
+}
+
+.mission-card {
+  background-color: #1D314A;
+  color: #FFD700;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  font-weight: bold;
+}
+</style>
+
+<div class="mission-banner">
+  <h1>OUR MISSION</h1>
+</div>
+
+<div class="mission-card">
+  <p>MAKE IT STAND OUT.</p>
+  <p>
+    IT ALL BEGINS WITH AN IDEA. MAYBE YOU WANT TO LAUNCH A BUSINESS. MAYBE YOU WANT TO TURN A HOBBY INTO SOMETHING MORE.
+    OR MAYBE YOU HAVE A CREATIVE PROJECT TO SHARE WITH THE WORLD.
+    WHATEVER IT IS, THE WAY YOU TELL YOUR STORY ONLINE CAN MAKE ALL THE DIFFERENCE.
   </p>
-</section>
+</div>
