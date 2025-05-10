@@ -1,7 +1,7 @@
 title: PDX Dream Team
 description: A cycling collective
-baseurl: ""
-url: "https://yourusername.github.io"
+baseurl: "/pdxdreamteam"
+url: "https://rofljen.github.io/pdxdreamteam"
 theme: minima
 sass:
   sass_dir: _sass
