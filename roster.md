@@ -1,0 +1,19 @@
+---
+layout: default
+title: 2025 Roster
+---
+
+<h2 style="text-align:center; color:#FF69B4;">PDX DREAM TEAM<br>2025 ROSTER</h2>
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:30px; background-color:#D1AFC4; padding:20px;">
+  <div style="text-align:center;">
+    <img src="/assets/images/jennifer.jpg" style="border-radius:50%; width:200px;"/>
+    <h3 style="color:#FF69B4;">JENNIFER HALIEWICZ</h3>
+    <p>CO-OWNER & CO-MANAGER<br>Cat 3 Road<br>Cat 2 Cyclocross</p>
+  </div>
+  <div style="text-align:center;">
+    <img src="/assets/images/zoe.jpg" style="border-radius:50%; width:200px;"/>
+    <h3 style="color:#FF69B4;">ZOE SACCO</h3>
+    <p>CO-OWNER & CO-MANAGER<br>Cat 1 Road & Track<br>Cat 2 Cyclocross</p>
+  </div>
+</div>

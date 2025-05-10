@@ -1,0 +1,15 @@
+---
+layout: default
+title: Our Mission
+---
+
+<section style="background-image: url('/assets/images/mission-bg.jpg'); background-size: cover; padding: 150px 0; text-align: center;">
+  <h1 style="font-size: 4em; color: #FFD700; font-weight: 900;">OUR MISSION</h1>
+</section>
+
+<section style="background-color: #1D314A; color: #FFD700; padding: 50px; text-align: center;">
+  <p style="font-size: 1.2em; font-weight: bold;">MAKE IT STAND OUT.</p>
+  <p style="font-size: 1.1em; max-width: 700px; margin: 0 auto;">
+    IT ALL BEGINS WITH AN IDEA. MAYBE YOU WANT TO LAUNCH A BUSINESS. MAYBE YOU WANT TO TURN A HOBBY INTO SOMETHING MORE. OR MAYBE YOU HAVE A CREATIVE PROJECT TO SHARE WITH THE WORLD. WHATEVER IT IS, THE WAY YOU TELL YOUR STORY ONLINE CAN MAKE ALL THE DIFFERENCE.
+  </p>
+</section>
