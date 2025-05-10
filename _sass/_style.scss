@@ -2,15 +2,36 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: #1D314A;
+  background-color: #1D314A;
   color: #FFF;
 }
 
 a {
   text-decoration: none;
   font-weight: bold;
+  color: #FFD700;
+}
+
+nav a:hover {
+  color: #FF69B4;
 }
 
 h1, h2, h3 {
   font-family: 'Impact', sans-serif;
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
 }
