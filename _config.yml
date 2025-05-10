@@ -4,4 +4,4 @@ baseurl: ""
 url: "https://yourusername.github.io"
 theme: minima
 sass:
-  sass_dir: assets/css
+  sass_dir: _sass
