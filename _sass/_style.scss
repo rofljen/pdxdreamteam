@@ -33,3 +33,24 @@ img {
   display: block;
   margin: 0 auto;
 }
+nav {
+  text-align: center;
+  background-color: #1D314A;
+  padding: 20px;
+
+  a {
+    margin: 0 15px;
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      color: #FF69B4;
+    }
+  }
+  img.logo {
+  border-radius: 50%;
+}
+
+}
+
